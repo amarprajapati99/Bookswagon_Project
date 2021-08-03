@@ -1,0 +1,86 @@
+[INFO ] 2021-08-03 14:50:11.741 [Test worker] Log - launching the Chrome browser
+[INFO ] 2021-08-03 14:50:15.049 [Test worker] Log - Internet is connected
+[INFO ] 2021-08-03 14:50:15.049 [Test worker] Log - Navigate to url : https://www.bookswagon.com/ 
+[INFO ] 2021-08-03 14:50:40.167 [Test worker] Log - clicking on login
+[INFO ] 2021-08-03 14:50:44.154 [Test worker] Log - Enter email id
+[INFO ] 2021-08-03 14:50:46.344 [Test worker] Log - Enter password
+[INFO ] 2021-08-03 14:50:48.544 [Test worker] Log - click on login button
+[INFO ] 2021-08-03 14:50:53.556 [Test worker] Log - you're login successfully
+[INFO ] 2021-08-03 14:51:15.561 [Test worker] Log - launching the Chrome browser
+[INFO ] 2021-08-03 14:51:46.052 [Test worker] Log - Internet is not connected
+[INFO ] 2021-08-03 14:51:46.053 [Test worker] Log - Navigate to url : https://www.bookswagon.com/ 
+[INFO ] 2021-08-03 14:52:59.447 [Test worker] Log - click on search bar
+[INFO ] 2021-08-03 14:53:00.661 [Test worker] Log - search books
+[INFO ] 2021-08-03 14:53:02.793 [Test worker] Log - click on search button
+[INFO ] 2021-08-03 14:53:16.064 [Test worker] Log - click search list
+[INFO ] 2021-08-03 14:53:20.168 [Test worker] Log - click on add to wishlist
+[INFO ] 2021-08-03 14:53:31.269 [Test worker] Log - clicking on login
+[INFO ] 2021-08-03 15:01:56.590 [Test worker] Log - launching the Chrome browser
+[INFO ] 2021-08-03 15:01:59.464 [Test worker] Log - Internet is connected
+[INFO ] 2021-08-03 15:01:59.464 [Test worker] Log - Navigate to url : https://www.bookswagon.com/ 
+[INFO ] 2021-08-03 15:02:07.445 [Test worker] Log - click on search bar
+[INFO ] 2021-08-03 15:02:08.592 [Test worker] Log - search books
+[INFO ] 2021-08-03 15:02:10.712 [Test worker] Log - click on search button
+[INFO ] 2021-08-03 15:02:36.490 [Test worker] Log - click search list
+[INFO ] 2021-08-03 15:02:40.590 [Test worker] Log - click on add to wishlist
+[INFO ] 2021-08-03 15:02:51.879 [Test worker] Log - clicking on login
+[INFO ] 2021-08-03 15:02:54.818 [Test worker] Log - Enter email id
+[INFO ] 2021-08-03 15:02:56.962 [Test worker] Log - Enter password
+[INFO ] 2021-08-03 15:02:59.113 [Test worker] Log - click on login button
+[INFO ] 2021-08-03 15:03:03.535 [Test worker] Log - you're login successfully
+[INFO ] 2021-08-03 15:07:23.738 [Test worker] Log - launching the Chrome browser
+[INFO ] 2021-08-03 15:07:34.948 [Test worker] Log - Internet is connected
+[INFO ] 2021-08-03 15:07:34.948 [Test worker] Log - Navigate to url : https://www.bookswagon.com/ 
+[INFO ] 2021-08-03 15:07:48.145 [Test worker] Log - clicking on login
+[INFO ] 2021-08-03 15:07:52.630 [Test worker] Log - Enter email id
+[INFO ] 2021-08-03 15:07:54.827 [Test worker] Log - Enter password
+[INFO ] 2021-08-03 15:07:57.032 [Test worker] Log - click on login button
+[INFO ] 2021-08-03 15:08:01.339 [Test worker] Log - you're login successfully
+[INFO ] 2021-08-03 15:08:01.354 [Test worker] Log - click on cart
+[INFO ] 2021-08-03 15:08:02.507 [Test worker] Log - switch to cart window
+[INFO ] 2021-08-03 15:08:05.557 [Test worker] Log - remove cart frame
+[INFO ] 2021-08-03 15:25:24.715 [Test worker] Log - launching the Chrome browser
+[INFO ] 2021-08-03 15:25:28.533 [Test worker] Log - Internet is connected
+[INFO ] 2021-08-03 15:25:28.533 [Test worker] Log - Navigate to url : https://www.bookswagon.com/ 
+[INFO ] 2021-08-03 15:25:37.734 [Test worker] Log - click on search bar
+[INFO ] 2021-08-03 15:25:38.913 [Test worker] Log - entering book name
+[INFO ] 2021-08-03 15:25:41.103 [Test worker] Log - click on search button
+[INFO ] 2021-08-03 15:25:51.190 [Test worker] Log - click on buy button
+[INFO ] 2021-08-03 15:25:58.409 [Test worker] Log - clearing the quantity size
+[INFO ] 2021-08-03 15:25:58.515 [Test worker] Log - updating quantity size
+[INFO ] 2021-08-03 15:26:01.613 [Test worker] Log - click on place order
+[INFO ] 2021-08-03 15:26:06.793 [Test worker] Log - sending username
+[INFO ] 2021-08-03 15:26:07.998 [Test worker] Log - sending password
+[INFO ] 2021-08-03 15:26:09.283 [Test worker] Log - clicking on login button
+[INFO ] 2021-08-03 15:26:12.507 [Test worker] Log - sending name
+[INFO ] 2021-08-03 15:26:13.683 [Test worker] Log - sending addresss
+[INFO ] 2021-08-03 15:26:14.380 [Test worker] Log - selecting country option
+[INFO ] 2021-08-03 15:26:14.978 [Test worker] Log - selecting state option
+[INFO ] 2021-08-03 15:26:15.645 [Test worker] Log - selecting city option
+[INFO ] 2021-08-03 15:27:31.579 [Test worker] Log - launching the Chrome browser
+[INFO ] 2021-08-03 15:27:35.708 [Test worker] Log - Internet is connected
+[INFO ] 2021-08-03 15:27:35.708 [Test worker] Log - Navigate to url : https://www.bookswagon.com/ 
+[INFO ] 2021-08-03 15:27:49.345 [Test worker] Log - clicking on login
+[INFO ] 2021-08-03 15:27:52.543 [Test worker] Log - Enter email id
+[INFO ] 2021-08-03 15:27:54.737 [Test worker] Log - Enter password
+[INFO ] 2021-08-03 15:27:56.920 [Test worker] Log - click on login button
+[INFO ] 2021-08-03 15:28:02.044 [Test worker] Log - you're login successfully
+[INFO ] 2021-08-03 15:30:41.804 [Test worker] Log - launching the Chrome browser
+[INFO ] 2021-08-03 15:30:45.019 [Test worker] Log - Internet is connected
+[INFO ] 2021-08-03 15:30:45.019 [Test worker] Log - Navigate to url : https://www.bookswagon.com/ 
+[INFO ] 2021-08-03 15:30:57.395 [Test worker] Log - click on search bar
+[INFO ] 2021-08-03 15:30:58.641 [Test worker] Log - entering book name
+[INFO ] 2021-08-03 15:31:00.742 [Test worker] Log - click on search button
+[INFO ] 2021-08-03 15:31:11.562 [Test worker] Log - click on buy button
+[INFO ] 2021-08-03 15:31:18.755 [Test worker] Log - clearing the quantity size
+[INFO ] 2021-08-03 15:31:18.849 [Test worker] Log - updating quantity size
+[INFO ] 2021-08-03 15:31:21.926 [Test worker] Log - click on place order
+[INFO ] 2021-08-03 15:33:56.159 [Test worker] Log - launching the Chrome browser
+[INFO ] 2021-08-03 15:34:00.139 [Test worker] Log - Internet is connected
+[INFO ] 2021-08-03 15:34:00.155 [Test worker] Log - Navigate to url : https://www.bookswagon.com/ 
+[INFO ] 2021-08-03 15:34:15.475 [Test worker] Log - clicking on login
+[INFO ] 2021-08-03 15:34:19.419 [Test worker] Log - Enter email id
+[INFO ] 2021-08-03 15:34:21.695 [Test worker] Log - Enter password
+[INFO ] 2021-08-03 15:34:23.921 [Test worker] Log - click on login button
+[INFO ] 2021-08-03 15:34:28.473 [Test worker] Log - you're login successfully
+[INFO ] 2021-08-03 15:34:28.797 [Test worker] Log - login_to_application :take success screenshot in interface listener method
