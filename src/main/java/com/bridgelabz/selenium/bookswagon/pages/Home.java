@@ -9,7 +9,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class DashBoardPage extends BaseClass{
+public class Home extends BaseClass{
 
     @FindBy (xpath = "//a[@class='sprite home-ico toplevel oneline']")
     WebElement home;
@@ -34,7 +34,7 @@ public class DashBoardPage extends BaseClass{
     @FindBy (xpath = "//a[normalize-space()='Log out']")
     WebElement logout;
 
-    public DashBoardPage (WebDriver driver) {
+    public Home (WebDriver driver) {
         PageFactory.initElements (driver, this);
     }
 

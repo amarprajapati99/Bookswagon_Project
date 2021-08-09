@@ -1,11 +1,16 @@
 package com.bridgelabz.selenium.bookswagon.test;
 
 import com.bridgelabz.selenium.bookswagon.base.BaseClass;
-import com.bridgelabz.selenium.bookswagon.pages.DashBoardPage;
+import com.bridgelabz.selenium.bookswagon.pages.Home;
 import com.bridgelabz.selenium.bookswagon.pages.Login;
 import com.bridgelabz.selenium.bookswagon.utility.CustomListener;
 import com.bridgelabz.selenium.bookswagon.utility.DataProviderClass;
+import com.bridgelabz.selenium.bookswagon.utility.Log;
 import com.bridgelabz.selenium.bookswagon.utility.Operations;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -16,28 +21,38 @@ import java.io.IOException;
 @Listeners(CustomListener.class)
 public class BooksWagonTest extends BaseClass{
     String username = "amarprajapati99@gmail.com";
-    String password = "amarprajapati91";
+    String password = "amarprajapati";
 
 
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("Test Login")
+    @Description("Login to application with invalid credentials")
     @Test(priority = 1)
     public void login_to_application() throws InterruptedException {
 
         Login login = new Login(driver);
         login.login_to_application_with_valid_credential(username, password);
+        Assert.assertEquals (driver.getCurrentUrl (),"Online BookStore India, Buy Books Online, Buy Book Online India - Bookswagon.com");
+        Log.info ("enter valid credentials");
     }
 
-
+    @Severity(SeverityLevel.CRITICAL)
+    @Description("Login to application with valid credentials")
+    @Story("Test login account by using data provider credentials ")
     @Test(priority = 2,dataProvider = "testDataSetFromExcelFile", dataProviderClass = DataProviderClass.class)
     public void login_to_application_using_dataProvider_data(String emailId, String passwd) throws InterruptedException {
 
         Login login = new Login(driver);
         login.login_to_application_with_valid_credential(emailId, passwd);
-        DashBoardPage dashBoardPage = new DashBoardPage (driver);
-        dashBoardPage.logout_from_account();
+        Home home = new Home(driver);
+        home.logout_from_account();
         String expectedUrl = "https://www.bookswagon.com/login";
         Assert.assertEquals(driver.getCurrentUrl(), expectedUrl);
     }
 
+    @Severity (SeverityLevel.CRITICAL)
+    @Story ("Test Login")
+    @Description ("Login to application with valid credentials from object repository property file")
     @Test(priority = 3)
     public void login_to_application_get_login_credential_from_object_repo() throws InterruptedException, IOException {
 
@@ -63,8 +78,8 @@ public class BooksWagonTest extends BaseClass{
 
         Login login = new Login(driver);
         login.login_to_application_with_valid_credential(username, password);
-        DashBoardPage dashBoardPage = new DashBoardPage (driver);
-        String actual = dashBoardPage.add_to_cart();
+        Home homePage = new Home(driver);
+        String actual = homePage.add_to_cart();
         String expected = "Online BookStore India, Buy Books Online, Buy Book Online India - Bookswagon.com";
         Assert.assertEquals(actual, expected);
         System.out.println("Book is added to cart is successfully!!");
@@ -88,7 +103,7 @@ public class BooksWagonTest extends BaseClass{
         Assert.assertEquals(actual, expected);
     }
 
-    @Test
+    @Test(priority = 8)
     public void buy_book_before_login() throws InterruptedException, IOException {
 
         Operations operations = new Operations(driver);
@@ -97,7 +112,7 @@ public class BooksWagonTest extends BaseClass{
         Assert.assertEquals(act_title, exp_title);
     }
 
-    @Test(priority = 8)
+    @Test(priority = 9)
     public void remove_book_test() throws InterruptedException {
 
         login_to_application();
@@ -108,7 +123,7 @@ public class BooksWagonTest extends BaseClass{
         System.out.println("book is removed successfully");
     }
 
-    @Test(priority = 9)
+    @Test(priority = 10)
     public void search_book_before_login_test() throws InterruptedException {
 
         Operations operations = new Operations(driver);
